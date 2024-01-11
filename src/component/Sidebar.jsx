@@ -1,5 +1,5 @@
 import React from "react";
-import './css/Sidebar.css'
+import "../css/Sidebar.css"
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 export default function Sidebar(){
@@ -8,6 +8,7 @@ export default function Sidebar(){
         <div className="Sidebar">
             {/* component logo*/}
             <TwitterIcon/>
+            {/* component logo*/}
         </div>
     )
 }
