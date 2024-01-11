@@ -7,6 +7,7 @@ export default function Sidebar(){
     return(
         <div className="Sidebar">
             {/* component logo*/}
+            <TwitterIcon/>
         </div>
     )
 }
