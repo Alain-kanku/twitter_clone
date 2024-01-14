@@ -5,16 +5,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { render } from 'react-dom'
 import Sidebar from './component/Sidebar'
-
+import Feed from './component/Feed'
+import Widgets from './component/Widgets'
 
 export default function App() {
 
 
       return (
         <>
-        <div className='App'>
+        <div className='app'>
          <Sidebar/>
-       
+         <Feed/>
+         <Widgets />
         </div>
         </>
       );
