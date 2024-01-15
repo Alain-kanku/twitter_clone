@@ -20,7 +20,7 @@ export default function TweetBox() {
                 className="tweetBox__imageInput"
                 // onChange={(e) => setTweetMessage(e.target.value)}
                 // value={tweetMessage}
-                placeholder="What's happening?"
+                placeholder="Optional : enter image URL"
                 type="text"
             />
             <Button className='tweetBox__tweetButton'>Tweet</Button>
