@@ -5,11 +5,12 @@
     overflow-y: scroll;
 }
 .feed__header{
+    display: flex;
     position: sticky;
     top: 0;
     z-index: 100;
-    border-right: 1px solid var(--twitter-background);
     padding: 15px 20px;
+    justify-content: space-between;
 }
 .feed__header > h2 {
     font-size: 20px;

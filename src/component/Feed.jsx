@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Feed.css";
 import TweetBox from './TweetBox';
 import Post from './Post';
-
+import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 export default function Feed() {
 
 
@@ -12,6 +12,7 @@ export default function Feed() {
                 {/*Header*/}
                 <div className="feed__header">
                 <h2>Home</h2>
+                <AutoAwesomeOutlinedIcon fontSize="large" />
                 </div>
                 
 

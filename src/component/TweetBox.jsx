@@ -1,6 +1,11 @@
 import React from 'react'
 import "../css/TweetBox.css"
 import { Avatar, Button } from '@mui/material';
+import ImageIcon from '@mui/icons-material/Image';
+import GifIcon from '@mui/icons-material/Gif';
+import AlignHorizontalLeftIcon from '@mui/icons-material/AlignHorizontalLeft';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
+import EventRepeatIcon from '@mui/icons-material/EventRepeat';
 
 export default function TweetBox() {
 
@@ -16,15 +21,18 @@ export default function TweetBox() {
                 />
 
             </div>
-            <input
-                className="tweetBox__imageInput"
-                // onChange={(e) => setTweetMessage(e.target.value)}
-                // value={tweetMessage}
-                placeholder="Optional : enter image URL"
-                type="text"
-            />
-            <Button className='tweetBox__tweetButton'>Tweet</Button>
+
         </form>
+        <div className="tweetbox_iconsWidget_buttonTweet">
+            <div className="tweetbox_iconsWidget">
+            <ImageIcon fontSize="medium" />
+            <GifIcon fontSize="medium" />
+            <AlignHorizontalLeftIcon fontSize="medium" />
+            <AddReactionIcon fontSize="medium" />
+            <EventRepeatIcon fontSize="medium" />
+            </div>
+            <Button className='tweetBox__tweetButton'>Tweet</Button>
+        </div>
     </div>
 
 }
