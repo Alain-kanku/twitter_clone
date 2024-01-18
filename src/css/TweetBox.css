@@ -1,5 +1,4 @@
 .tweetBox{
-    padding-bottom: 10px;
     border-bottom: 1px solid darkgray;
     border-top: 1px solid darkgray;
     
@@ -9,7 +8,7 @@
     flex-direction: column;
 } */
 .tweetBox__input{
-    padding: 20px;
+    padding: 10px;
     display: flex;
 }
 .tweetBox__input > input{
@@ -19,11 +18,13 @@
     border: none;
 }
 .tweetbox_iconsWidget_buttonTweet{
+    padding: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
 }
 .tweetbox_iconsWidget{
-    padding-left: 65px;
+    padding-left: 50px;
     margin-top: auto;
     color: var(--twitter-color);
     cursor: pointer;

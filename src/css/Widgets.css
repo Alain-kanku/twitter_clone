@@ -1,18 +1,29 @@
 .Widgets{
-    flex: 0.3;
+    
 }
-.Widgets__input{
+.Widgets__one, .Widgets__two, .Widgets__three{
     display: flex;
     align-items: center;
-    background-color: var(--twitter-background);
     padding: 10px;
     border-radius: 20px;
+    background-color: black;
     margin-top: 10px;
     margin-left: 20px;
 }
+.Widgets__two{
+   
+    background-color: #4E4E4E;
+    height: 450px;
+
+}
+.Widgets__three{
+    background-color: #4E4E4E;
+    height: 250px;
+
+}
 .Widgets__input > input {
     border: none;
-    background-color: var(--twitter-background);
+    font-size: 20px;
 }
 .widgets__searchIcon {
     color: gray;
@@ -22,12 +33,12 @@
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
-    background-color: #f5f8fa;
     border-radius: 20px;
+
+    
   }
   
   .widgets__widgetContainer > h2 {
     font-size: 18px;
-    font-weight: 800;
   }
   

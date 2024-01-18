@@ -11,14 +11,22 @@ export default function Widgets() {
   
     return (
     <div className='Widgets'>
-        <div className="Widgets__input">
+        <div className="Widgets__one">
              <SearchIcon className="Widgets__SearchIcon"/>
              <input placeholder='Search Twitter' type="text" />
         </div>
+        
         <div className="Widgets__widgetsContainer">
-          <h2>What's Happening</h2>
           
-          <TwitterTweetEmbed tweetId={"858551177860055040"} />
+        <div className="Widgets__two">
+            <h3>Trends for you</h3>
+             
+        </div>
+        <div className="Widgets__three">
+             <SearchIcon className="Widgets__SearchIcon"/>
+             <input placeholder='Search Twitter' type="text" />
+        </div>
+          {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
 
           <TwitterTimelineEmbed
           sourceType="profile"
@@ -29,7 +37,7 @@ export default function Widgets() {
         <TwitterShareButton
           url={"https://facebook.com/cleverprogrammer"}
           options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
-        />
+        /> */}
         </div>
     </div>
   )
