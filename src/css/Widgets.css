@@ -5,25 +5,23 @@
     background-color: #4E4E4E;
     margin-top: 10px;
     margin-left: 20px;
-    
 }
 .Widgets__one{
-    align-items: center;
-    
+    align-items: center;   
 }
 .Widgets__one > input {
     border: none;
     font-size: 20px;
+    margin-left: 20px;
+    background-color: #4E4E4E;
 }
 .widgets__searchIcon {
-    color: gray;
+    color: #4E4E4E;
   }
 .Widgets__two{
    
     background-color: #4E4E4E;
     height: 426px;
-    
-
 }
 .Widgets__three{
     background-color: #4E4E4E;
