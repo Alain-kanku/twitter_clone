@@ -1,20 +1,28 @@
-.Widgets{
-    
-}
 .Widgets__one, .Widgets__two, .Widgets__three{
     display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: black;
+    padding: 10px  20px;
+    border-radius: 30px;
+    background-color: #4E4E4E;
     margin-top: 10px;
     margin-left: 20px;
+    
 }
+.Widgets__one{
+    align-items: center;
+    
+}
+.Widgets__one > input {
+    border: none;
+    font-size: 20px;
+}
+.widgets__searchIcon {
+    color: gray;
+  }
 .Widgets__two{
    
     background-color: #4E4E4E;
     height: 426px;
-  
+    
 
 }
 .Widgets__three{
@@ -22,13 +30,6 @@
     height: 314px;
 
 }
-.Widgets__input > input {
-    border: none;
-    font-size: 20px;
-}
-.widgets__searchIcon {
-    color: gray;
-  }
   
   .widgets__widgetContainer {
     margin-top: 15px;

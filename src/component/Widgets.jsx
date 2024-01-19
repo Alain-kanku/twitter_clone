@@ -6,6 +6,7 @@ import {
   TwitterTweetEmbed,
 } from "react-twitter-embed";
 import SearchIcon from '@mui/icons-material/Search';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 export default function Widgets() {
   
@@ -20,7 +21,7 @@ export default function Widgets() {
           
         <div className="Widgets__two">
             <h3>Trends for you</h3>
-             
+            <SettingsOutlinedIcon fontSize='large'/>  
         </div>
         <div className="Widgets__three">
              <SearchIcon className="Widgets__SearchIcon"/>
