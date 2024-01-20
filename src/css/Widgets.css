@@ -1,34 +1,53 @@
-.Widgets__one, .Widgets__two, .Widgets__three{
+.Widgets__one, .Widgets__three{
     display: flex;
-    padding: 10px  20px;
     border-radius: 30px;
-    background-color: #4E4E4E;
+    background-color: var(--twitter-background-widgets);
     margin-top: 10px;
     margin-left: 20px;
 }
 .Widgets__one{
     align-items: center;   
+    padding: 10px  20px;
 }
 .Widgets__one > input {
     border: none;
     font-size: 20px;
     margin-left: 20px;
-    background-color: #4E4E4E;
+    background-color: var(--twitter-background-widgets);
 }
 .widgets__searchIcon {
-    color: #4E4E4E;
+    color: var(--twitter-background-widgets);
   }
+.Widgets__two__trendTitle{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+h4{
+    margin: 0px;
+}
+h5{
+    font-size: 16px;
+    color: var(--twitter-color);
+}
 .Widgets__two{
-   
-    background-color: #4E4E4E;
-    height: 426px;
+    background-color:var(--twitter-background-widgets);
+    height: 426px;   
+}
+.Widgets__two > h3{
+    margin: 0px 0px;
 }
 .Widgets__three{
-    background-color: #4E4E4E;
+    background-color: var(--twitter-background-widgets);
     height: 314px;
+    padding: 20px;
 
 }
-  
+.Widgets__three > h3{
+    margin: 0px 0px;
+}
   .widgets__widgetContainer {
     margin-top: 15px;
     margin-left: 20px;

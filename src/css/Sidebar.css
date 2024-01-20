@@ -1,5 +1,5 @@
 .Sidebar{
-    border-right: 1px solid darkgray;
+    border-right: 1px solid var(--twitter-background-widgets);
     /* min-width: 250px; */
     margin-top: 20px;
     padding-left: 20px;

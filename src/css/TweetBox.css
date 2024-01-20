@@ -1,6 +1,6 @@
 .tweetBox{
-    border-bottom: 1px solid darkgray;
-    border-top: 1px solid darkgray;
+    border-bottom: 1px solid var(--twitter-background-widgets);
+    border-top: 1px solid var(--twitter-background-widgets);
     
 }
 /* .tweetBox > form{

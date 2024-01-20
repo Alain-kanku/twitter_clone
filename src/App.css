@@ -1,6 +1,8 @@
 body{
   --twitter-color: #50b7f5;
   --twitter-background: #e6ecf0;
+  --twitter-background-widgets: #2F3336;
+  --twitter-trends-color: #6E767D;
 }
 .app{
   display: flex;

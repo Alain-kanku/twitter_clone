@@ -1,33 +1,40 @@
 import React from 'react'
 import "../css/Widgets.css"
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterTweetEmbed,
-} from "react-twitter-embed";
+import SidebarWidgets from './SidebarWidgets'
 import SearchIcon from '@mui/icons-material/Search';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
+
+
 export default function Widgets() {
-  
-    return (
+
+  return (
     <div className='Widgets'>
-        <div className="Widgets__one">
-             <SearchIcon className="Widgets__SearchIcon"/>
-             <input placeholder='Search Twitter' type="text" />
-        </div>
-        
-        <div className="Widgets__widgetsContainer">
-          
+      <div className="Widgets__one">
+        <SearchIcon className="Widgets__SearchIcon" />
+        <input placeholder='Search Twitter' type="text" />
+      </div>
+
+      <div className="Widgets__widgetsContainer">
+
         <div className="Widgets__two">
-            <h3>Trends for you</h3>
-            <SettingsOutlinedIcon fontSize='large'/>  
+          <div className="Widgets__two__trendTitle">
+            <h4>Trends for you</h4>
+            <SettingsOutlinedIcon fontSize='medium' />
+          </div>
+          <SidebarWidgets />
+          <SidebarWidgets />
+          <SidebarWidgets />
+          <SidebarWidgets />
+          <SidebarWidgets />
+
+          <h5>Show more</h5>
         </div>
+
         <div className="Widgets__three">
-             <SearchIcon className="Widgets__SearchIcon"/>
-             <input placeholder='Search Twitter' type="text" />
+          <h4>Who to follow</h4>
         </div>
-          {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
+        {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
 
           <TwitterTimelineEmbed
           sourceType="profile"
@@ -39,7 +46,7 @@ export default function Widgets() {
           url={"https://facebook.com/cleverprogrammer"}
           options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
         /> */}
-        </div>
+      </div>
     </div>
   )
 }

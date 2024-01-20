@@ -1,0 +1,37 @@
+.SidebarWidgets{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 300px;
+}
+.SidebarWidgets__trend > span, h3{
+    margin: 0px;
+    color: var(--twitter-trends-color);
+    font-size: 12px;
+}
+.SidebarWidgets__trend > h3{
+    margin: 0px;
+    color: #ffffff;
+}
+.Widgets__two{
+    border-radius: 30px;
+    background-color: var(--twitter-background-widgets);
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* .SidebarWidgets > h2{
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+} */
+/* .SidebarWidgets:hover{
+    background-color: #e8f5fe ;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+} */
+/* .SidebarWidgets--active{
+    color: var(--twitter-color);
+} */

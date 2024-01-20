@@ -1,5 +1,5 @@
 .feed{
-    border-right: 1px solid var(--twitter-background);
+    border-right: 1px solid var(--twitter-background-widgets);
     overflow-y: scroll;
 }
 .feed__header{
