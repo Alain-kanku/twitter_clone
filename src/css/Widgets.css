@@ -1,11 +1,11 @@
 .Widgets__one, .Widgets__three{
-    display: flex;
     border-radius: 30px;
     background-color: var(--twitter-background-widgets);
     margin-top: 10px;
     margin-left: 20px;
 }
 .Widgets__one{
+    display: flex;
     align-items: center;   
     padding: 10px  20px;
 }
@@ -25,6 +25,11 @@
     padding-right: 10px;
     padding-bottom: 10px;
 }
+.Widgets__three__FollowTitle > h4{
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 0px;
+}
 h4{
     margin: 0px;
 }
@@ -43,21 +48,20 @@ h5{
     background-color: var(--twitter-background-widgets);
     height: 314px;
     padding: 20px;
-
 }
 .Widgets__three > h3{
     margin: 0px 0px;
+}
+.Widgets__three__FollowTitle > h4{
+   color: #ffffff;
 }
   .widgets__widgetContainer {
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
-    border-radius: 20px;
-
-    
-  }
-  
-  .widgets__widgetContainer > h2 {
+    border-radius: 20px;   
+}
+.widgets__widgetContainer > h2 {
     font-size: 18px;
-  }
+}
   

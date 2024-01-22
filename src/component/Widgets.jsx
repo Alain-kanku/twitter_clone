@@ -1,6 +1,7 @@
 import React from 'react'
 import "../css/Widgets.css"
 import SidebarWidgets from './SidebarWidgets'
+import SidebarWhoFollow from './SidebarWhoFollow'
 import SearchIcon from '@mui/icons-material/Search';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
@@ -32,7 +33,16 @@ export default function Widgets() {
         </div>
 
         <div className="Widgets__three">
-          <h4>Who to follow</h4>
+          <div className="Widgets__three__FollowTitle">
+            <h4>Who to follow</h4>
+          </div>
+
+          <SidebarWhoFollow />
+          <SidebarWhoFollow />
+          <SidebarWhoFollow />
+         
+
+          <h5>Show more</h5>
         </div>
         {/* <TwitterTweetEmbed tweetId={"858551177860055040"} />
 

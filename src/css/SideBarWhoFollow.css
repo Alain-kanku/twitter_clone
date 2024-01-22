@@ -3,21 +3,20 @@
     cursor: pointer;
     justify-content: space-between;
     width: 300px;
+    margin-bottom: 20px;
 }
-.SidebarWhoFollow__trend > span, h3{
-    margin: 0px;
-    color: var(--twitter-trends-color);
-    font-size: 12px;
+.SidebarWhoFollow__info, .post__badge, .SidebarWhoFollow__info > h6{
+   margin-left: 10px;
 }
-.SidebarWhoFollow__trend > h3{
+.SidebarWhoFollow__nameBadge{
+    display: flex;
+}
+.SidebarWhoFollow__info > h6{
     margin: 0px;
+}
+.SidebarWhoFollow__nameBadge > h3{
     color: #ffffff;
 }
-.Widgets__two{
-    border-radius: 30px;
-    background-color: var(--twitter-background-widgets);
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 10px;
-    margin-left: 20px;
+.SidebarWhoFollow__info >h6{
+    color: var(--twitter-trends-color);
 }

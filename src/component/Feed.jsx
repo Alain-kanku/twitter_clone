@@ -3,8 +3,9 @@ import "../css/Feed.css";
 import TweetBox from './TweetBox';
 import Post from './Post';
 import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
-export default function Feed() {
 
+
+export default function Feed() {
 
     return (
         <>
